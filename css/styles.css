@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* Title Section */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#nav {
+  padding-left: 0;
+}
+
+.navbar {
+  padding: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Montserrat", "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+#phone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+}
+
+/*Features Section*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#features div {
+  margin: 2% auto;
+  text-align: center;
+}
+
+#features .fas {
+  color: #ef8172;
+  font-size: 2.5rem;
+}
+
+#features span:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#features p {
+  color: #81818f;
+}
+
+/*Testimonials Section*/
+#testimonials {
+  margin: 15% 0 0;
+  background-color: #ef8172;
+  text-align: center;
+}
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+#testimonials h2 {
+  color: white;
+}
+#testimonials img {
+  width: 10%;
+  margin: 2%;
+  border-radius: 100%;
+}
+
+/*Press Section*/
+#press {
+  margin: 0;
+  padding: 5% 0 3%;
+  background-color: #ef8172;
+  text-align: center;
+}
+#press img {
+  width: 15%;
+  margin: 2%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+#pricing .pricing-column {
+  margin: 5% 0;
+}
+
+/* Call to action section */
+#cta {
+  padding: 10%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta h3 {
+  font-weight: 900;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#cta button {
+  margin: 5% 3%;
+}
+
+/* Footer Section */
+#footer {
+  background-color: white;
+  text-align: center;
+  margin: 15% 0 7%;
+}
+#footer span {
+  margin: 5px;
+}
+#footer p {
+  font-weight: lighter;
+  color: #81818f;
+}
+
+/* Media queries */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    position: static;
+  }
+  #div-image {
+    position: static;
+  }
+  #phone-image {
+    position: static;
+    transform: rotate(0);
+    margin: 2% auto;
+  }
+  #freatures {
+    position: static;
+  }
+}
